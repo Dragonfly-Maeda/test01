@@ -14,7 +14,7 @@ public class Player {
       this.deck.add(new Monster());
     }
   }
-
+  
   public void showDeck() {
     for (Monster m : this.deck) {
       System.out.println(m);
